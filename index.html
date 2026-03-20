@@ -1,751 +1,719 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Kayee Roofing LLC — Gwinnett County's most trusted roofing company. Roof replacement, repair, storm damage, and insurance claim specialists. 5-Star rated. Call (770) 773-5059." />
-  <title>Kayee Roofing LLC — Gwinnett County's #1 Roofing Experts</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kayee Roofing LLC – Licensed & Insured Roofing Contractors in Lawrenceville, GA. Expert roof replacement, repair, and storm damage. Free estimates. Call (770) 773-5059.">
+  <title>Kayee Roofing LLC | Lawrenceville, GA Roofing Experts</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Barlow+Condensed:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- MOBILE MENU OVERLAY -->
-  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
-    <button class="mobile-close" id="mobileClose" aria-label="Close menu">
-      <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></svg>
-    </button>
-    <nav class="mobile-nav">
-      <a href="#services">Services</a>
-      <a href="#gallery">Our Work</a>
-      <a href="#process">Process</a>
-      <a href="#reviews">Reviews</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <a href="tel:7707735059" class="btn btn-primary mobile-cta">
-      <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-      Call (770) 773-5059
+<!-- ===================== MOBILE MENU ===================== -->
+<div class="menu-overlay" id="menuOverlay"></div>
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-header">
+    <a href="#" class="nav-logo">
+      <img src="assets/logo.png" alt="Kayee Roofing LLC" class="logo-img" id="mobileLogoImg">
+      <span class="logo-fallback" id="mobileLogoFallback">KAYEE <em>ROOFING</em></span>
     </a>
+    <button class="menu-close" id="menuClose" aria-label="Close menu">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M2 2L18 18M18 2L2 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
   </div>
+  <nav class="mobile-nav">
+    <a href="#services" class="mobile-link">Services</a>
+    <a href="#gallery" class="mobile-link">Our Work</a>
+    <a href="#reviews" class="mobile-link">Reviews</a>
+    <a href="#areas" class="mobile-link">Service Areas</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+  </nav>
+  <div class="mobile-cta">
+    <a href="tel:7707735059" class="btn btn-outline-white btn-full">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.82 19.79 19.79 0 01.01 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+      (770) 773-5059
+    </a>
+    <a href="#contact" class="btn btn-gold btn-full">Get Free Estimate</a>
+  </div>
+</div>
 
-  <!-- NAVIGATION -->
-  <header id="nav">
-    <div class="container nav-inner">
-      <a href="#" class="nav-logo" aria-label="Kayee Roofing LLC Home">
-        <div class="logo-icon">
-          <svg width="20" height="20" fill="none" viewBox="0 0 24 24"><path d="M3 10.5L12 3l9 7.5V21H15v-5h-6v5H3V10.5z" fill="#fff" fill-opacity=".9"/></svg>
-        </div>
-        <span>Kayee <em>Roofing</em> LLC</span>
+<!-- ===================== NAV ===================== -->
+<nav class="nav" id="mainNav">
+  <div class="nav-inner">
+    <!-- LOGO: Place your logo file at assets/logo.png (PNG with transparent background recommended) -->
+    <a href="#" class="nav-logo" aria-label="Kayee Roofing LLC">
+      <img src="assets/logo.png" alt="Kayee Roofing LLC" class="logo-img" id="navLogoImg">
+      <span class="logo-fallback" id="navLogoFallback">KAYEE <em>ROOFING</em></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#gallery">Our Work</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#areas">Service Areas</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="tel:7707735059" class="nav-phone">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.82 19.79 19.79 0 01.01 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+        (770) 773-5059
       </a>
-      <nav class="nav-links" aria-label="Main navigation">
-        <a href="#services">Services</a>
-        <a href="#gallery">Our Work</a>
-        <a href="#process">Process</a>
-        <a href="#reviews">Reviews</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <div class="nav-right">
-        <a href="tel:7707735059" class="nav-phone">
-          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+      <a href="#contact" class="btn btn-gold">Free Estimate</a>
+    </div>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="hero">
+  <div class="hero-bg">
+    <img src="https://images.unsplash.com/photo-1580587771525-4cbe253c7a5e?auto=format&fit=crop&w=1920&q=80" alt="Aerial neighborhood" class="hero-bg-img" loading="eager">
+    <div class="hero-overlay"></div>
+  </div>
+  <canvas class="hero-canvas" id="heroCanvas"></canvas>
+  <div class="container hero-container">
+    <div class="hero-content" data-reveal>
+      <div class="hero-badge">
+        <span class="badge-stars">★★★★★</span>
+        5.0 &nbsp;·&nbsp; Gwinnett County's Most Trusted Roofer
+      </div>
+      <h1 class="hero-headline">Built to Last.<br><span class="headline-accent">Done Right.</span></h1>
+      <p class="hero-sub">Licensed &amp; insured roofing professionals serving Lawrenceville and all of Gwinnett County. From full replacements to emergency repairs — backed by our workmanship guarantee.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-gold btn-lg">
+          Get Free Estimate
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="tel:7707735059" class="btn btn-outline-white btn-lg">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.82 19.79 19.79 0 01.01 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
           (770) 773-5059
         </a>
-        <a href="#contact" class="btn btn-primary btn-sm">Free Estimate</a>
-        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
-          <span></span><span></span><span></span>
+      </div>
+      <div class="hero-trust-row">
+        <div class="trust-pill"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Licensed &amp; Insured</div>
+        <div class="trust-pill"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>5-Star Rated</div>
+        <div class="trust-pill"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>Same-Day Response</div>
+        <div class="trust-pill"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>Free Inspections</div>
+      </div>
+    </div>
+  </div>
+  <a href="#stats" class="hero-scroll" aria-label="Scroll down"><div class="scroll-dot"></div></a>
+</section>
+
+<!-- ===================== TICKER ===================== -->
+<div class="ticker-wrap">
+  <div class="ticker-track">
+    <span class="ticker-item">🔨 <strong>Roof Replacement</strong> — Lawrenceville, GA &nbsp;·&nbsp; ⭐⭐⭐⭐⭐</span>
+    <span class="ticker-sep">◆</span>
+    <span class="ticker-item">🏠 <strong>Storm Damage Repair</strong> — Duluth, GA &nbsp;·&nbsp; Insurance Approved</span>
+    <span class="ticker-sep">◆</span>
+    <span class="ticker-item">✅ <strong>New Shingle Install</strong> — Snellville, GA &nbsp;·&nbsp; ⭐⭐⭐⭐⭐</span>
+    <span class="ticker-sep">◆</span>
+    <span class="ticker-item">🔧 <strong>Emergency Leak Repair</strong> — Buford, GA &nbsp;·&nbsp; Same-Day Service</span>
+    <span class="ticker-sep">◆</span>
+    <span class="ticker-item">🏗️ <strong>Full Reroof</strong> — Suwanee, GA &nbsp;·&nbsp; ⭐⭐⭐⭐⭐</span>
+    <span class="ticker-sep">◆</span>
+    <span class="ticker-item">🔨 <strong>Gutter Replacement</strong> — Lawrenceville, GA &nbsp;·&nbsp; Completed</span>
+    <span class="ticker-sep">◆</span>
+    <span class="ticker-item">🔨 <strong>Roof Replacement</strong> — Lawrenceville, GA &nbsp;·&nbsp; ⭐⭐⭐⭐⭐</span>
+    <span class="ticker-sep">◆</span>
+    <span class="ticker-item">🏠 <strong>Storm Damage Repair</strong> — Duluth, GA &nbsp;·&nbsp; Insurance Approved</span>
+    <span class="ticker-sep">◆</span>
+    <span class="ticker-item">✅ <strong>New Shingle Install</strong> — Snellville, GA &nbsp;·&nbsp; ⭐⭐⭐⭐⭐</span>
+    <span class="ticker-sep">◆</span>
+    <span class="ticker-item">🔧 <strong>Emergency Leak Repair</strong> — Buford, GA &nbsp;·&nbsp; Same-Day Service</span>
+    <span class="ticker-sep">◆</span>
+    <span class="ticker-item">🏗️ <strong>Full Reroof</strong> — Suwanee, GA &nbsp;·&nbsp; ⭐⭐⭐⭐⭐</span>
+    <span class="ticker-sep">◆</span>
+    <span class="ticker-item">🔨 <strong>Gutter Replacement</strong> — Lawrenceville, GA &nbsp;·&nbsp; Completed</span>
+    <span class="ticker-sep">◆</span>
+  </div>
+</div>
+
+<!-- ===================== STATS ===================== -->
+<section class="stats-section" id="stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item" data-reveal>
+        <div class="stat-num-wrap"><span class="stat-num" data-target="250">0</span><span class="stat-suffix">+</span></div>
+        <span class="stat-label">Roofs Completed</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item" data-reveal>
+        <div class="stat-num-wrap"><span class="stat-num" data-target="12">0</span><span class="stat-suffix">+</span></div>
+        <span class="stat-label">Years in Business</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item" data-reveal>
+        <div class="stat-num-wrap"><span class="stat-num" data-target="5">0</span><span class="stat-suffix">.0★</span></div>
+        <span class="stat-label">Google Rating</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item" data-reveal>
+        <div class="stat-num-wrap"><span class="stat-num" data-target="100">0</span><span class="stat-suffix">%</span></div>
+        <span class="stat-label">Job Satisfaction</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICES ===================== -->
+<section class="services-section" id="services">
+  <div class="container">
+    <div class="section-header" data-reveal>
+      <span class="section-tag">What We Do</span>
+      <h2>Complete Roofing Services</h2>
+      <p>From full replacements to emergency repairs — every job handled with expert craftsmanship and premium materials.</p>
+    </div>
+    <div class="services-grid">
+
+      <div class="service-card" data-reveal style="--svc-img: url('https://images.unsplash.com/photo-1632207691143-643e2a9a9361?auto=format&fit=crop&w=600&q=80')">
+        <div class="service-card-bg"></div>
+        <div class="service-card-inner">
+          <div class="service-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <h3>Roof Replacement</h3>
+          <p>Complete tear-off and new installation using premium shingles, underlayment, and flashing — built to last decades.</p>
+          <a href="#contact" class="service-link">Get a Quote →</a>
+        </div>
+      </div>
+
+      <div class="service-card" data-reveal style="--svc-img: url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80')">
+        <div class="service-card-bg"></div>
+        <div class="service-card-inner">
+          <div class="service-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <h3>Roof Repair</h3>
+          <p>Leaks, missing shingles, flashing failures, ridge cap damage — fast, accurate repairs that stop problems for good.</p>
+          <a href="#contact" class="service-link">Get a Quote →</a>
+        </div>
+      </div>
+
+      <div class="service-card" data-reveal style="--svc-img: url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80')">
+        <div class="service-card-bg"></div>
+        <div class="service-card-inner">
+          <div class="service-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.5 10c-.83 0-1.5-.67-1.5-1.5v-5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5z"/><path d="M20.5 10H19V8.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/><path d="M9.5 14c.83 0 1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5S8 21.33 8 20.5v-5c0-.83.67-1.5 1.5-1.5z"/><path d="M3.5 14H5v1.5c0 .83-.67 1.5-1.5 1.5S2 16.33 2 15.5 2.67 14 3.5 14z"/><path d="M14 14.5c0-.83.67-1.5 1.5-1.5h5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5h-5c-.83 0-1.5-.67-1.5-1.5z"/><path d="M15.5 19H14v1.5c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5z"/><path d="M10 9.5C10 8.67 9.33 8 8.5 8h-5C2.67 8 2 8.67 2 9.5S2.67 11 3.5 11h5c.83 0 1.5-.67 1.5-1.5z"/><path d="M8.5 5H10V3.5C10 2.67 9.33 2 8.5 2S7 2.67 7 3.5 7.67 5 8.5 5z"/></svg>
+          </div>
+          <h3>Storm Damage</h3>
+          <p>Hail, wind, and tree damage specialists. We work directly with your insurance adjuster to make claims seamless.</p>
+          <a href="#contact" class="service-link">File a Claim →</a>
+        </div>
+      </div>
+
+      <div class="service-card" data-reveal style="--svc-img: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80')">
+        <div class="service-card-bg"></div>
+        <div class="service-card-inner">
+          <div class="service-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/></svg>
+          </div>
+          <h3>New Construction</h3>
+          <p>Builder partnerships and new home installs. We coordinate with your construction timeline from framing to final shingle.</p>
+          <a href="#contact" class="service-link">Get a Quote →</a>
+        </div>
+      </div>
+
+      <div class="service-card" data-reveal style="--svc-img: url('https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=600&q=80')">
+        <div class="service-card-bg"></div>
+        <div class="service-card-inner">
+          <div class="service-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <h3>Gutters &amp; Drainage</h3>
+          <p>Seamless gutter installation, replacement, and repair. Proper drainage protects your foundation and extends roof life.</p>
+          <a href="#contact" class="service-link">Get a Quote →</a>
+        </div>
+      </div>
+
+      <div class="service-card service-card--highlight" data-reveal>
+        <div class="service-card-inner">
+          <div class="service-icon service-icon--gold">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+          </div>
+          <h3>Free Inspection</h3>
+          <p>Not sure what your roof needs? We'll come out, assess the condition, and give you an honest recommendation — zero cost.</p>
+          <a href="#contact" class="btn btn-gold btn-sm">Schedule Now</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== GALLERY ===================== -->
+<section class="gallery-section" id="gallery">
+  <div class="container">
+    <div class="section-header section-header--light" data-reveal>
+      <span class="section-tag section-tag--gold">Our Work</span>
+      <h2>Real Jobs. Real Results.</h2>
+      <p>Every project reflects our craftsmanship. Here's a look at recent work across Gwinnett County.</p>
+    </div>
+
+    <div class="ba-wrapper" data-reveal>
+      <div class="ba-label ba-label--left">Before</div>
+      <div class="ba-label ba-label--right">After</div>
+      <div class="ba-slider" id="baSlider">
+        <div class="ba-before">
+          <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?auto=format&fit=crop&w=1000&q=80" alt="Before: damaged roof">
+          <span class="ba-tag">Storm Damaged</span>
+        </div>
+        <div class="ba-after">
+          <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1000&q=80" alt="After: new roof">
+          <span class="ba-tag">Fully Replaced</span>
+        </div>
+        <div class="ba-handle" id="baHandle">
+          <div class="ba-handle-line"></div>
+          <div class="ba-handle-circle">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+          </div>
+          <div class="ba-handle-line"></div>
+        </div>
+      </div>
+      <p class="ba-caption">Drag to compare · Lawrenceville, GA · Owens Corning Duration Shingles</p>
+    </div>
+
+    <div class="projects-grid">
+
+      <div class="project-card" data-reveal>
+        <div class="project-img-wrap">
+          <img src="https://images.unsplash.com/photo-1632207691143-643e2a9a9361?auto=format&fit=crop&w=700&q=80" alt="Shingle roof replacement" loading="lazy">
+          <span class="project-badge">Replacement</span>
+        </div>
+        <div class="project-info">
+          <span class="project-location"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Lawrenceville, GA</span>
+          <h4>Complete Reroof — Residential</h4>
+          <p>Full tear-off and replacement with Owens Corning Duration architectural shingles.</p>
+        </div>
+      </div>
+
+      <div class="project-card" data-reveal>
+        <div class="project-img-wrap">
+          <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=700&q=80" alt="Roofers at work" loading="lazy">
+          <span class="project-badge project-badge--repair">Repair</span>
+        </div>
+        <div class="project-info">
+          <span class="project-location"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Buford, GA</span>
+          <h4>Storm Damage Repair</h4>
+          <p>Emergency repair after severe hail. Insurance claim handled start to finish.</p>
+        </div>
+      </div>
+
+      <div class="project-card" data-reveal>
+        <div class="project-img-wrap">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=700&q=80" alt="New home with beautiful roof" loading="lazy">
+          <span class="project-badge project-badge--new">New Build</span>
+        </div>
+        <div class="project-info">
+          <span class="project-location"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Suwanee, GA</span>
+          <h4>New Construction Install</h4>
+          <p>Full roofing on 2,800 sq ft new build. GAF Timberline HDZ shingles.</p>
+        </div>
+      </div>
+
+      <div class="project-card" data-reveal>
+        <div class="project-img-wrap">
+          <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=700&q=80" alt="Home with new shingle roof" loading="lazy">
+          <span class="project-badge">Replacement</span>
+        </div>
+        <div class="project-info">
+          <span class="project-location"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Snellville, GA</span>
+          <h4>Full Shingle Replacement</h4>
+          <p>30-year dimensional shingles, new flashing, ridge cap. Completed in one day.</p>
+        </div>
+      </div>
+
+      <div class="project-card" data-reveal>
+        <div class="project-img-wrap">
+          <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=700&q=80" alt="Residential roofing" loading="lazy">
+          <span class="project-badge project-badge--repair">Repair</span>
+        </div>
+        <div class="project-info">
+          <span class="project-location"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Duluth, GA</span>
+          <h4>Leak Repair &amp; Re-Flashing</h4>
+          <p>Persistent attic leak traced to failed chimney flashing. Sealed and re-flashed.</p>
+        </div>
+      </div>
+
+      <div class="project-card" data-reveal>
+        <div class="project-img-wrap">
+          <img src="https://images.unsplash.com/photo-1580587771525-4cbe253c7a5e?auto=format&fit=crop&w=700&q=80" alt="Aerial neighborhood view" loading="lazy">
+          <span class="project-badge project-badge--new">Gutters</span>
+        </div>
+        <div class="project-info">
+          <span class="project-location"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Lawrenceville, GA</span>
+          <h4>Seamless Gutter Install</h4>
+          <p>Full seamless aluminum gutter system with leaf guards. Paired with full reroof.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="gallery-cta" data-reveal>
+      <a href="#contact" class="btn btn-gold btn-lg">Start Your Project — Free Estimate</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PROCESS ===================== -->
+<section class="process-section" id="process">
+  <div class="container">
+    <div class="section-header" data-reveal>
+      <span class="section-tag">How It Works</span>
+      <h2>Our Process</h2>
+      <p>Simple, transparent, and stress-free — from first call to final walkthrough.</p>
+    </div>
+    <div class="process-steps">
+
+      <div class="process-step" data-reveal>
+        <div class="process-num-wrap"><span class="process-num">01</span><div class="process-connector"></div></div>
+        <div class="process-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg></div>
+        <h4>Free Inspection</h4>
+        <p>We visit your property, thoroughly assess the roof condition, and document any damage — no charge, no obligation.</p>
+      </div>
+
+      <div class="process-step" data-reveal>
+        <div class="process-num-wrap"><span class="process-num">02</span><div class="process-connector"></div></div>
+        <div class="process-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
+        <h4>Detailed Estimate</h4>
+        <p>You receive a clear, itemized quote — no hidden fees, no vague language. We walk through every line if you want.</p>
+      </div>
+
+      <div class="process-step" data-reveal>
+        <div class="process-num-wrap"><span class="process-num">03</span><div class="process-connector"></div></div>
+        <div class="process-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 010 14.14M4.93 4.93a10 10 0 000 14.14"/></svg></div>
+        <h4>Expert Installation</h4>
+        <p>Our crew arrives on time, works clean, and installs using manufacturer-approved techniques and premium materials.</p>
+      </div>
+
+      <div class="process-step" data-reveal>
+        <div class="process-num-wrap"><span class="process-num">04</span></div>
+        <div class="process-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <h4>Walkthrough &amp; Warranty</h4>
+        <p>We do a full inspection with you, clean up completely, and hand over your workmanship warranty documentation.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== REVIEWS ===================== -->
+<section class="reviews-section" id="reviews">
+  <div class="container">
+    <div class="section-header" data-reveal>
+      <span class="section-tag">Customer Reviews</span>
+      <h2>What Gwinnett County Says</h2>
+      <div class="reviews-aggregate" data-reveal>
+        <div class="agg-stars">★★★★★</div>
+        <div class="agg-score">5.0</div>
+        <div class="agg-count">Based on 22+ Google Reviews</div>
+      </div>
+    </div>
+    <div class="reviews-carousel-wrap">
+      <div class="reviews-carousel" id="reviewsCarousel">
+
+        <div class="review-card">
+          <div class="review-top">
+            <div class="reviewer-avatar">M</div>
+            <div class="reviewer-info">
+              <span class="reviewer-name">Marcus T.</span>
+              <span class="reviewer-location">Lawrenceville, GA</span>
+            </div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <p class="review-text">"Kayee Roofing did an outstanding job replacing our 20-year-old roof. They were on time, professional, and left my yard cleaner than when they arrived. The new roof looks incredible and I've already gotten compliments from neighbors."</p>
+          <span class="review-service">Roof Replacement</span>
+        </div>
+
+        <div class="review-card">
+          <div class="review-top">
+            <div class="reviewer-avatar">D</div>
+            <div class="reviewer-info">
+              <span class="reviewer-name">Diane W.</span>
+              <span class="reviewer-location">Buford, GA</span>
+            </div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <p class="review-text">"After hail damage I was overwhelmed with insurance paperwork. Kayee Roofing walked me through everything, dealt with the adjuster directly, and had my roof done in two days. The quality of work was exceptional."</p>
+          <span class="review-service">Storm Damage / Insurance Claim</span>
+        </div>
+
+        <div class="review-card">
+          <div class="review-top">
+            <div class="reviewer-avatar">K</div>
+            <div class="reviewer-info">
+              <span class="reviewer-name">Kevin R.</span>
+              <span class="reviewer-location">Duluth, GA</span>
+            </div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <p class="review-text">"Called them Saturday morning after a tree came through my roof. They were there in two hours and had it repaired by evening. Unbelievable response time. Will never call anyone else for roofing."</p>
+          <span class="review-service">Emergency Roof Repair</span>
+        </div>
+
+        <div class="review-card">
+          <div class="review-top">
+            <div class="reviewer-avatar">S</div>
+            <div class="reviewer-info">
+              <span class="reviewer-name">Sarah M.</span>
+              <span class="reviewer-location">Snellville, GA</span>
+            </div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <p class="review-text">"Got three quotes before choosing Kayee — they were the best value by far, most knowledgeable, and explained every step. Finished ahead of schedule. My roof looks amazing. 5 stars, no question."</p>
+          <span class="review-service">Full Roof Replacement</span>
+        </div>
+
+        <div class="review-card">
+          <div class="review-top">
+            <div class="reviewer-avatar">J</div>
+            <div class="reviewer-info">
+              <span class="reviewer-name">James &amp; Linda H.</span>
+              <span class="reviewer-location">Lawrenceville, GA</span>
+            </div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <p class="review-text">"Used Kayee twice — once for a repair and recently for full gutters on our new addition. Both times the team was respectful, thorough, and did excellent work. They're the kind of contractor you're glad to refer."</p>
+          <span class="review-service">Gutters &amp; Drainage</span>
+        </div>
+
+      </div>
+      <div class="carousel-controls">
+        <button class="carousel-btn carousel-btn--prev" id="carouselPrev" aria-label="Previous">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <div class="carousel-dots" id="carouselDots"></div>
+        <button class="carousel-btn carousel-btn--next" id="carouselNext" aria-label="Next">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
         </button>
       </div>
     </div>
-  </header>
+  </div>
+</section>
 
-  <!-- HERO -->
-  <section id="hero">
-    <canvas id="heroCanvas"></canvas>
-    <div class="hero-shingle-bg"></div>
-    <div class="hero-overlay"></div>
-    <div class="container hero-content">
-      <div class="hero-eyebrow">
-        <span class="eyebrow-stars">★★★★★</span>
-        <span>5.0 Rated · Gwinnett County's Trusted Crew</span>
+<!-- ===================== SERVICE AREAS ===================== -->
+<section class="areas-section" id="areas">
+  <div class="container">
+    <div class="areas-inner" data-reveal>
+      <div class="areas-content">
+        <span class="section-tag section-tag--gold">Where We Work</span>
+        <h2>Serving All of<br>Gwinnett County</h2>
+        <p>Based in Lawrenceville, we serve homeowners throughout Gwinnett County and surrounding areas. If you're nearby, we'll be there fast.</p>
+        <div class="areas-grid">
+          <span class="area-tag">Lawrenceville</span>
+          <span class="area-tag">Duluth</span>
+          <span class="area-tag">Snellville</span>
+          <span class="area-tag">Buford</span>
+          <span class="area-tag">Suwanee</span>
+          <span class="area-tag">Norcross</span>
+          <span class="area-tag">Sugar Hill</span>
+          <span class="area-tag">Grayson</span>
+          <span class="area-tag">Lilburn</span>
+          <span class="area-tag">Loganville</span>
+          <span class="area-tag">Dacula</span>
+          <span class="area-tag">Auburn</span>
+        </div>
+        <a href="#contact" class="btn btn-gold">Check My Area — Free Estimate</a>
       </div>
-      <h1 class="hero-h1">
-        <span class="line">Real Roofing.</span>
-        <span class="line">Real Results.</span>
-        <span class="line accent">Built to Last.</span>
-      </h1>
-      <p class="hero-sub">
-        We're not a call center. We're a crew — out on roofs every day, handling full replacements, storm damage, and insurance claims so you don't have to fight alone.
-      </p>
-      <div class="hero-ctas">
-        <a href="#contact" class="btn btn-primary btn-lg">
-          Get My Free Estimate
-          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-        </a>
-        <a href="tel:7707735059" class="btn btn-outline btn-lg">
-          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-          Call Us Now
-        </a>
-      </div>
-      <div class="hero-metrics">
-        <div class="hero-metric">
-          <strong class="count" data-target="5.0" data-decimal>5.0</strong>
-          <span>Star Rating</span>
+      <div class="areas-photo">
+        <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=700&q=80" alt="Gwinnett County residential roofing" loading="lazy">
+        <div class="areas-badge">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>Lawrenceville, GA 30046</span>
         </div>
-        <div class="hero-metric-divider"></div>
-        <div class="hero-metric">
-          <strong class="count" data-target="22">0</strong>
-          <span>Google Reviews</span>
-        </div>
-        <div class="hero-metric-divider"></div>
-        <div class="hero-metric">
-          <strong>24/7</strong>
-          <span>Emergency Service</span>
-        </div>
-        <div class="hero-metric-divider"></div>
-        <div class="hero-metric">
-          <strong>100%</strong>
-          <span>Licensed &amp; Insured</span>
-        </div>
-      </div>
-    </div>
-    <div class="hero-scroll-hint" aria-hidden="true">
-      <div class="scroll-line"></div>
-      <span>Scroll to see our work</span>
-    </div>
-  </section>
-
-  <!-- LIVE JOBS TICKER -->
-  <div class="ticker-bar" aria-label="Recent completed jobs">
-    <div class="ticker-label">
-      <span class="ticker-dot"></span> Recently Completed
-    </div>
-    <div class="ticker-wrap">
-      <div class="ticker-track" id="tickerTrack">
-        <span>✓&nbsp; Full Roof Replacement — Lawrenceville, GA</span>
-        <span>✓&nbsp; Insurance Claim Filed &amp; Won — Duluth, GA</span>
-        <span>✓&nbsp; Storm Damage Repair — Snellville, GA</span>
-        <span>✓&nbsp; Architectural Shingle Install — Buford, GA</span>
-        <span>✓&nbsp; Complete Tear-Off &amp; Replace — Suwanee, GA</span>
-        <span>✓&nbsp; Hail Damage Inspection — Norcross, GA</span>
-        <span>✓&nbsp; Emergency Leak Repair — Lilburn, GA</span>
-        <span>✓&nbsp; Full Roof Replacement — Lawrenceville, GA</span>
-        <span>✓&nbsp; Insurance Claim Filed &amp; Won — Duluth, GA</span>
-        <span>✓&nbsp; Storm Damage Repair — Snellville, GA</span>
-        <span>✓&nbsp; Architectural Shingle Install — Buford, GA</span>
-        <span>✓&nbsp; Complete Tear-Off &amp; Replace — Suwanee, GA</span>
-        <span>✓&nbsp; Hail Damage Inspection — Norcross, GA</span>
-        <span>✓&nbsp; Emergency Leak Repair — Lilburn, GA</span>
       </div>
     </div>
   </div>
+</section>
 
-  <!-- TRUST BADGES -->
-  <section class="trust-section">
-    <div class="container trust-grid">
-      <div class="trust-item reveal">
-        <div class="trust-icon-wrap">
-          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        </div>
-        <div class="trust-text">
-          <strong>5.0 Google Rating</strong>
-          <span>22+ Verified Reviews</span>
-        </div>
-      </div>
-      <div class="trust-item reveal delay-1">
-        <div class="trust-icon-wrap">
-          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        </div>
-        <div class="trust-text">
-          <strong>Licensed &amp; Insured</strong>
-          <span>Georgia State Certified</span>
-        </div>
-      </div>
-      <div class="trust-item reveal delay-2">
-        <div class="trust-icon-wrap">
-          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
-        </div>
-        <div class="trust-text">
-          <strong>Insurance Specialists</strong>
-          <span>We Handle the Claim Process</span>
-        </div>
-      </div>
-      <div class="trust-item reveal delay-3">
-        <div class="trust-icon-wrap">
-          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-        </div>
-        <div class="trust-text">
-          <strong>24/7 Emergency Service</strong>
-          <span>Always Available When You Need Us</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SERVICES -->
-  <section id="services" class="section-dark">
-    <div class="container">
-      <div class="section-header center reveal">
-        <div class="section-tag">What We Do</div>
-        <h2>Every Job Done Right,<br>Start to Finish</h2>
-        <p>From inspecting a single shingle to a full roof tear-off — we bring the same precision and care to every project on our list.</p>
-      </div>
-      <div class="services-grid">
-        <div class="service-card reveal delay-1">
-          <div class="service-card-top">
-            <div class="service-num">01</div>
-            <div class="service-icon-wrap">
-              <svg width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-            </div>
-          </div>
-          <h3>Roof Replacement</h3>
-          <p>Complete tear-off and installation using premium architectural shingles. We handle permits, debris removal, and a thorough post-job inspection.</p>
-          <ul class="service-bullets">
-            <li>Full tear-off &amp; deck inspection</li>
-            <li>Premium shingle materials</li>
-            <li>Clean site, guaranteed</li>
-          </ul>
-          <a href="#contact" class="service-cta">Request a Quote <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
-        </div>
-        <div class="service-card reveal delay-2">
-          <div class="service-card-top">
-            <div class="service-num">02</div>
-            <div class="service-icon-wrap">
-              <svg width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
-            </div>
-          </div>
-          <h3>Roof Repair</h3>
-          <p>Leaks, missing shingles, rotted decking, failed flashing — we diagnose accurately and repair fast, without selling you work you don't need.</p>
-          <ul class="service-bullets">
-            <li>Honest, thorough diagnosis</li>
-            <li>Same-day emergency service</li>
-            <li>Leak-proof guarantee</li>
-          </ul>
-          <a href="#contact" class="service-cta">Request a Quote <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
-        </div>
-        <div class="service-card reveal delay-3">
-          <div class="service-card-top">
-            <div class="service-num">03</div>
-            <div class="service-icon-wrap">
-              <svg width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
-            </div>
-          </div>
-          <h3>Insurance Claims Assistance</h3>
-          <p>We've helped dozens of homeowners get the settlement they deserve. We work directly with your adjuster — you don't have to fight that battle alone.</p>
-          <ul class="service-bullets">
-            <li>Free damage inspection</li>
-            <li>We meet with your adjuster</li>
-            <li>Maximize your claim payout</li>
-          </ul>
-          <a href="#contact" class="service-cta">Request a Quote <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
-        </div>
-        <div class="service-card reveal delay-4">
-          <div class="service-card-top">
-            <div class="service-num">04</div>
-            <div class="service-icon-wrap">
-              <svg width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M12 3L2 12h3v9h6v-6h2v6h6v-9h3L12 3z"/></svg>
-            </div>
-          </div>
-          <h3>Storm Damage Repair</h3>
-          <p>After hail, high winds, or a fallen tree — we respond fast. We tarp, assess, and restore your roof before the next rain hits.</p>
-          <ul class="service-bullets">
-            <li>24/7 emergency response</li>
-            <li>Temporary tarping available</li>
-            <li>Insurance documentation ready</li>
-          </ul>
-          <a href="#contact" class="service-cta">Request a Quote <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- GALLERY & BEFORE/AFTER -->
-  <section id="gallery" class="section-light">
-    <div class="container">
-      <div class="section-header center reveal">
-        <div class="section-tag tag-dark">Our Work</div>
-        <h2>Before &amp; After —<br>See the Difference We Make</h2>
-        <p>Every project tells a story. Drag the slider to see what a Kayee Roofing job actually looks like.</p>
-      </div>
-      <div class="ba-feature reveal">
-        <div class="ba-slider" id="baSlider" aria-label="Before and after comparison slider">
-          <div class="ba-panel ba-before">
-            <div class="ba-roof-art ba-roof-old" aria-hidden="true">
-              <div class="shingle-grid old"></div>
-              <div class="roof-ridge old-ridge"></div>
-              <div class="damage-spots">
-                <div class="damage-spot" style="top:28%;left:22%"></div>
-                <div class="damage-spot" style="top:44%;left:58%"></div>
-                <div class="damage-spot" style="top:62%;left:35%"></div>
-                <div class="damage-spot small" style="top:38%;left:75%"></div>
-              </div>
-            </div>
-            <div class="ba-label ba-label-before">
-              <span class="ba-label-dot old-dot"></span> Before
-            </div>
-            <div class="ba-info">
-              <span>Storm-damaged · Missing shingles · Active leaks</span>
-            </div>
-          </div>
-          <div class="ba-panel ba-after" id="baAfter">
-            <div class="ba-roof-art ba-roof-new" aria-hidden="true">
-              <div class="shingle-grid new"></div>
-              <div class="roof-ridge new-ridge"></div>
-              <div class="new-badge">New Roof ✓</div>
-            </div>
-            <div class="ba-label ba-label-after">
-              <span class="ba-label-dot new-dot"></span> After
-            </div>
-            <div class="ba-info right">
-              <span>Full replacement · Architectural shingles · 30-year warranty</span>
-            </div>
-          </div>
-          <div class="ba-handle" id="baHandle">
-            <div class="ba-handle-line"></div>
-            <div class="ba-handle-circle">
-              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>
-              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg>
-            </div>
-          </div>
-        </div>
-        <div class="ba-caption">
-          <span>← Drag to compare</span>
-          <span>Lawrenceville, GA — Full Roof Replacement after Hail Storm</span>
-        </div>
-      </div>
-      <div class="gallery-section-label reveal">
-        <span>More Completed Projects</span>
-        <div class="gallery-label-line"></div>
-      </div>
-      <div class="projects-grid">
-        <div class="project-card reveal delay-1">
-          <div class="project-visual">
-            <div class="proj-roof charcoal-shingles" aria-hidden="true">
-              <div class="proj-shingles"></div><div class="proj-ridge"></div>
-            </div>
-            <div class="project-hover">
-              <span class="project-type">Roof Replacement</span>
-              <a href="#contact" class="project-cta-link">Get Similar Work Done →</a>
-            </div>
-          </div>
-          <div class="project-info">
-            <span class="project-location"><svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Buford, GA</span>
-            <h4>Full Replacement — Architectural Shingles</h4>
-            <p>Complete tear-off, new decking, and premium charcoal shingles. Insurance claim filed and approved.</p>
-          </div>
-        </div>
-        <div class="project-card reveal delay-2">
-          <div class="project-visual">
-            <div class="proj-roof brown-shingles" aria-hidden="true">
-              <div class="proj-shingles"></div><div class="proj-ridge"></div>
-            </div>
-            <div class="project-hover">
-              <span class="project-type">Storm Damage</span>
-              <a href="#contact" class="project-cta-link">Get Similar Work Done →</a>
-            </div>
-          </div>
-          <div class="project-info">
-            <span class="project-location"><svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Duluth, GA</span>
-            <h4>Storm Damage Repair — Hail Impact</h4>
-            <p>After a major hail event, we documented every impact point for insurance and completed the full restoration.</p>
-          </div>
-        </div>
-        <div class="project-card reveal delay-3">
-          <div class="project-visual">
-            <div class="proj-roof slate-shingles" aria-hidden="true">
-              <div class="proj-shingles"></div><div class="proj-ridge"></div>
-            </div>
-            <div class="project-hover">
-              <span class="project-type">Insurance Claim</span>
-              <a href="#contact" class="project-cta-link">Get Similar Work Done →</a>
-            </div>
-          </div>
-          <div class="project-info">
-            <span class="project-location"><svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Snellville, GA</span>
-            <h4>Insurance Replacement — Slate Style</h4>
-            <p>Full replacement covered 100% by insurance. We handled every step of the claim so the homeowner didn't have to.</p>
-          </div>
-        </div>
-        <div class="project-card reveal delay-1">
-          <div class="project-visual">
-            <div class="proj-roof dark-shingles" aria-hidden="true">
-              <div class="proj-shingles"></div><div class="proj-ridge"></div>
-            </div>
-            <div class="project-hover">
-              <span class="project-type">Roof Repair</span>
-              <a href="#contact" class="project-cta-link">Get Similar Work Done →</a>
-            </div>
-          </div>
-          <div class="project-info">
-            <span class="project-location"><svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Suwanee, GA</span>
-            <h4>Leak Repair — Flashing &amp; Sealing</h4>
-            <p>Multiple leak points traced, flashing replaced, and sealant applied. Fixed in one visit, zero callbacks.</p>
-          </div>
-        </div>
-        <div class="project-card reveal delay-2">
-          <div class="project-visual">
-            <div class="proj-roof navy-shingles" aria-hidden="true">
-              <div class="proj-shingles"></div><div class="proj-ridge"></div>
-            </div>
-            <div class="project-hover">
-              <span class="project-type">Full Replacement</span>
-              <a href="#contact" class="project-cta-link">Get Similar Work Done →</a>
-            </div>
-          </div>
-          <div class="project-info">
-            <span class="project-location"><svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Norcross, GA</span>
-            <h4>Full Replacement — High-Wind Zone</h4>
-            <p>Upgraded to high-wind rated shingles after previous roof failed during a storm. Installed in 2 days.</p>
-          </div>
-        </div>
-        <div class="project-card reveal delay-3">
-          <div class="project-visual">
-            <div class="proj-roof warm-shingles" aria-hidden="true">
-              <div class="proj-shingles"></div><div class="proj-ridge"></div>
-            </div>
-            <div class="project-hover">
-              <span class="project-type">Replacement</span>
-              <a href="#contact" class="project-cta-link">Get Similar Work Done →</a>
-            </div>
-          </div>
-          <div class="project-info">
-            <span class="project-location"><svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Lilburn, GA</span>
-            <h4>Complete Replacement — Warm Tone</h4>
-            <p>Aging 20-year roof replaced before any damage occurred. Homeowner proactive, we delivered a spotless result.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- OUR PROCESS -->
-  <section id="process" class="section-dark">
-    <div class="container">
-      <div class="section-header center reveal">
-        <div class="section-tag">How We Work</div>
-        <h2>Simple Process.<br>Zero Surprises.</h2>
-        <p>We've refined our process so homeowners know exactly what to expect — from your first call to the final nail.</p>
-      </div>
-      <div class="process-steps">
-        <div class="process-step reveal delay-1">
-          <div class="process-num">01</div>
-          <div class="process-icon">
-            <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
-          </div>
-          <h4>Free Inspection</h4>
-          <p>We come out, get on the roof, and give you an honest assessment. No pressure, no sales pitch — just facts.</p>
-        </div>
-        <div class="process-connector" aria-hidden="true"></div>
-        <div class="process-step reveal delay-2">
-          <div class="process-num">02</div>
-          <div class="process-icon">
-            <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
-          </div>
-          <h4>Insurance Claim (If Applicable)</h4>
-          <p>If storm or hail damage is present, we work alongside your insurance adjuster to make sure everything is documented and approved.</p>
-        </div>
-        <div class="process-connector" aria-hidden="true"></div>
-        <div class="process-step reveal delay-3">
-          <div class="process-num">03</div>
-          <div class="process-icon">
-            <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>
-          </div>
-          <h4>Installation Day</h4>
-          <p>Our crew arrives on time, works clean, and executes the job with precision. We don't leave until it's perfect.</p>
-        </div>
-        <div class="process-connector" aria-hidden="true"></div>
-        <div class="process-step reveal delay-4">
-          <div class="process-num">04</div>
-          <div class="process-icon">
-            <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
-          </div>
-          <h4>Final Walkthrough</h4>
-          <p>We walk the property with you, clean up every nail and scrap, and make sure you're 100% satisfied before we pack up.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- REVIEWS -->
-  <section id="reviews" class="section-light">
-    <div class="container">
-      <div class="reviews-top reveal">
-        <div class="reviews-top-left">
-          <div class="section-tag tag-dark">Customer Reviews</div>
-          <h2>Don't Take Our Word<br>For It</h2>
-          <p>These are homeowners just like you — people who needed their roof handled right and trusted us to do it.</p>
-        </div>
-        <div class="reviews-score-card">
-          <div class="reviews-score">5.0</div>
-          <div class="reviews-stars-row">★★★★★</div>
-          <div class="reviews-platform">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
-            Google Reviews · 22+
-          </div>
-        </div>
-      </div>
-      <div class="carousel-wrap reveal">
-        <div class="carousel-mask">
-          <div class="carousel-track" id="carouselTrack">
-            <article class="review-card">
-              <div class="review-top">
-                <div class="review-stars">★★★★★</div>
-                <div class="review-google-mark"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div>
-              </div>
-              <blockquote>"Kayee Roofing was very efficient. Their work ethic was remarkable. They exemplified professional courtesy. I would use them again."</blockquote>
-              <div class="review-footer">
-                <div class="review-avatar">JM</div>
-                <div class="review-author-info"><strong>J. Morris</strong><span>Lawrenceville, GA</span></div>
-                <div class="review-badge">Verified</div>
-              </div>
-            </article>
-            <article class="review-card">
-              <div class="review-top">
-                <div class="review-stars">★★★★★</div>
-                <div class="review-google-mark"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div>
-              </div>
-              <blockquote>"Kayee and his team are amazing. Their serious and dedicated work attitude really impressed me. They helped me when other companies couldn't."</blockquote>
-              <div class="review-footer">
-                <div class="review-avatar">AT</div>
-                <div class="review-author-info"><strong>A. Thompson</strong><span>Duluth, GA</span></div>
-                <div class="review-badge">Verified</div>
-              </div>
-            </article>
-            <article class="review-card">
-              <div class="review-top">
-                <div class="review-stars">★★★★★</div>
-                <div class="review-google-mark"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div>
-              </div>
-              <blockquote>"The team worked directly with my insurance company and handled everything. The entire process was completely seamless from start to finish."</blockquote>
-              <div class="review-footer">
-                <div class="review-avatar">SR</div>
-                <div class="review-author-info"><strong>S. Robinson</strong><span>Snellville, GA</span></div>
-                <div class="review-badge">Verified</div>
-              </div>
-            </article>
-            <article class="review-card">
-              <div class="review-top">
-                <div class="review-stars">★★★★★</div>
-                <div class="review-google-mark"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div>
-              </div>
-              <blockquote>"I can't say enough good things about them. They helped navigate the entire insurance process and delivered absolutely amazing results."</blockquote>
-              <div class="review-footer">
-                <div class="review-avatar">DW</div>
-                <div class="review-author-info"><strong>D. Williams</strong><span>Buford, GA</span></div>
-                <div class="review-badge">Verified</div>
-              </div>
-            </article>
-            <article class="review-card">
-              <div class="review-top">
-                <div class="review-stars">★★★★★</div>
-                <div class="review-google-mark"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg></div>
-              </div>
-              <blockquote>"They kept their word, showed complete honesty throughout the entire project, and were extremely professional. Highly recommend Kayee Roofing."</blockquote>
-              <div class="review-footer">
-                <div class="review-avatar">KP</div>
-                <div class="review-author-info"><strong>K. Patterson</strong><span>Suwanee, GA</span></div>
-                <div class="review-badge">Verified</div>
-              </div>
-            </article>
-          </div>
-        </div>
-        <div class="carousel-controls">
-          <button class="carousel-btn" id="carouselPrev" aria-label="Previous review">
-            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>
-          </button>
-          <div class="carousel-dots" id="carouselDots"></div>
-          <button class="carousel-btn" id="carouselNext" aria-label="Next review">
-            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg>
-          </button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- WHY CHOOSE US -->
-  <section id="why" class="section-dark">
-    <div class="container why-grid">
-      <div class="why-left reveal-left">
-        <div class="section-tag">Why Kayee Roofing</div>
-        <h2>We Earn Your Trust<br>on the Roof, Not Just<br>in the Office</h2>
-        <p>Any company can promise quality. We prove it on every job — with clean installs, honest quotes, and a team that actually shows up when they say they will.</p>
-        <a href="#contact" class="btn btn-primary btn-lg" style="margin-top:32px">Start With a Free Inspection</a>
-      </div>
-      <div class="why-right reveal-right">
-        <div class="why-features">
-          <div class="why-feature">
-            <div class="why-check-icon"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-            <div><strong>5-Star Reputation, Every Time</strong><p>22+ verified five-star Google reviews from real Gwinnett County homeowners. Our track record speaks louder than any ad.</p></div>
-          </div>
-          <div class="why-feature">
-            <div class="why-check-icon"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-            <div><strong>We Handle Insurance — Start to Finish</strong><p>Most homeowners leave money on the table. We work directly with adjusters to make sure your claim is fully documented and paid.</p></div>
-          </div>
-          <div class="why-feature">
-            <div class="why-check-icon"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-            <div><strong>Fast, Clean, Professional Work</strong><p>We show up when scheduled, we work efficiently, and we leave your property cleaner than we found it. Every job, every time.</p></div>
-          </div>
-          <div class="why-feature">
-            <div class="why-check-icon"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-            <div><strong>Honest Pricing, No Surprises</strong><p>We quote what the job actually costs. No hidden fees, no change orders on the day of installation, no pressure tactics.</p></div>
-          </div>
-          <div class="why-feature">
-            <div class="why-check-icon"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
-            <div><strong>24/7 Emergency Response</strong><p>A storm doesn't wait for business hours. Neither do we. Call us any time and we'll get someone to you fast.</p></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA BAND -->
-  <section id="cta" class="cta-section">
-    <div class="cta-bg-mesh" aria-hidden="true"></div>
-    <div class="container cta-content reveal">
-      <div class="cta-text">
-        <h2>Your Roof Deserves<br>a Team That Shows Up</h2>
-        <p>Free inspection. No obligation. Just honest answers from the crew Gwinnett County calls first.</p>
-      </div>
+<!-- ===================== CTA BAND ===================== -->
+<section class="cta-section">
+  <div class="cta-bg">
+    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1920&q=80" alt="" loading="lazy">
+    <div class="cta-overlay"></div>
+  </div>
+  <div class="container">
+    <div class="cta-inner" data-reveal>
+      <h2>Ready for a Roof That Lasts?</h2>
+      <p>Get a free, no-obligation inspection from Gwinnett County's most trusted roofing crew.</p>
       <div class="cta-actions">
-        <a href="tel:7707735059" class="btn btn-white btn-lg">
-          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+        <a href="#contact" class="btn btn-gold btn-lg">Get My Free Estimate</a>
+        <a href="tel:7707735059" class="cta-phone">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.82 19.79 19.79 0 01.01 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
           Call (770) 773-5059
         </a>
-        <a href="#contact" class="btn btn-outline-white btn-lg">Request Free Estimate →</a>
+      </div>
+      <div class="cta-trust">
+        <span>✓ No Pressure</span>
+        <span>✓ Same-Day Response</span>
+        <span>✓ Licensed &amp; Insured</span>
+        <span>✓ Free Inspection</span>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="section-light">
-    <div class="container contact-grid">
-      <div class="contact-info reveal-left">
-        <div class="section-tag tag-dark">Get In Touch</div>
-        <h2>Let's Talk About<br>Your Roof</h2>
-        <p>Fill out the form or call us directly. We respond fast — usually within the hour during the day.</p>
+<!-- ===================== CONTACT ===================== -->
+<section class="contact-section" id="contact">
+  <div class="container">
+    <div class="contact-grid">
+
+      <div class="contact-info" data-reveal>
+        <span class="section-tag section-tag--gold">Get In Touch</span>
+        <h2>Request Your<br>Free Estimate</h2>
+        <p>Fill out the form and we'll reach out within a few hours to schedule your free inspection. Or just call us directly.</p>
         <div class="contact-details">
-          <div class="contact-detail-item">
-            <div class="contact-detail-icon"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></div>
-            <div><strong>Phone</strong><a href="tel:7707735059">(770) 773-5059</a></div>
+          <a href="tel:7707735059" class="contact-detail-row">
+            <div class="detail-icon"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.82 19.79 19.79 0 01.01 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg></div>
+            <div><span class="detail-label">Phone</span><span class="detail-value">(770) 773-5059</span></div>
+          </a>
+          <div class="contact-detail-row">
+            <div class="detail-icon"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+            <div><span class="detail-label">Address</span><span class="detail-value">279 W Crogan St, Lawrenceville, GA 30046</span></div>
           </div>
-          <div class="contact-detail-item">
-            <div class="contact-detail-icon"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div>
-            <div><strong>Address</strong><span>279 W Crogan St, Lawrenceville, GA 30046</span></div>
-          </div>
-          <div class="contact-detail-item">
-            <div class="contact-detail-icon"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
-            <div><strong>Hours</strong><span>Open 24 Hours · 7 Days a Week</span></div>
+          <div class="contact-detail-row">
+            <div class="detail-icon"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+            <div><span class="detail-label">Hours</span><span class="detail-value">Mon–Sat 7am–7pm · Emergency: 24/7</span></div>
           </div>
         </div>
-        <div class="service-area-block">
-          <strong>Serving All of Gwinnett County</strong>
-          <div class="area-tags">
-            <span>Lawrenceville</span><span>Duluth</span><span>Snellville</span>
-            <span>Buford</span><span>Suwanee</span><span>Norcross</span>
-            <span>Lilburn</span><span>Loganville</span><span>Grayson</span>
-          </div>
+        <div class="contact-badges">
+          <div class="c-badge"><span>★★★★★ 5.0 Google</span></div>
+          <div class="c-badge"><span>🛡 Licensed &amp; Insured</span></div>
         </div>
       </div>
-      <div class="contact-form-box reveal-right">
-        <div class="form-header">
-          <h3>Request a Free Estimate</h3>
-          <p>We'll get back to you within 1 hour.</p>
-        </div>
-        <form id="contactForm" novalidate>
+
+      <div class="contact-form-wrap" data-reveal>
+        <form class="contact-form" id="contactForm" novalidate>
           <div class="form-row">
-            <div class="form-field">
-              <label for="fname">Full Name *</label>
-              <input type="text" id="fname" name="name" placeholder="John Smith" required />
+            <div class="form-group">
+              <label for="firstName">First Name *</label>
+              <input type="text" id="firstName" name="firstName" placeholder="John" required>
+              <span class="form-error" id="firstNameErr"></span>
             </div>
-            <div class="form-field">
-              <label for="fphone">Phone Number *</label>
-              <input type="tel" id="fphone" name="phone" placeholder="(770) 000-0000" required />
+            <div class="form-group">
+              <label for="lastName">Last Name *</label>
+              <input type="text" id="lastName" name="lastName" placeholder="Smith" required>
+              <span class="form-error" id="lastNameErr"></span>
             </div>
           </div>
-          <div class="form-field">
-            <label for="femail">Email Address</label>
-            <input type="email" id="femail" name="email" placeholder="john@email.com" />
+          <div class="form-group">
+            <label for="phone">Phone Number *</label>
+            <input type="tel" id="phone" name="phone" placeholder="(770) 555-0123" required>
+            <span class="form-error" id="phoneErr"></span>
           </div>
-          <div class="form-field">
-            <label for="fservice">Service Needed</label>
-            <select id="fservice" name="service">
-              <option value="">Select a service...</option>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="john@email.com">
+          </div>
+          <div class="form-group">
+            <label for="service">Service Needed</label>
+            <select id="service" name="service">
+              <option value="" disabled selected>Select a service…</option>
               <option>Roof Replacement</option>
               <option>Roof Repair</option>
-              <option>Insurance Claim Assistance</option>
-              <option>Storm Damage Repair</option>
-              <option>Free Roof Inspection</option>
+              <option>Storm Damage / Insurance Claim</option>
+              <option>New Construction</option>
+              <option>Gutters &amp; Drainage</option>
+              <option>Free Inspection / Not Sure</option>
             </select>
           </div>
-          <div class="form-field">
-            <label for="fmessage">Message</label>
-            <textarea id="fmessage" name="message" rows="4" placeholder="Tell us about your roof situation..."></textarea>
+          <div class="form-group">
+            <label for="message">Tell Us About Your Roof</label>
+            <textarea id="message" name="message" rows="4" placeholder="Describe the issue, roof type, approximate age, etc."></textarea>
           </div>
-          <button type="submit" class="form-submit-btn">
-            Send My Request
-            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          <button type="submit" class="btn btn-gold btn-full btn-lg" id="submitBtn">
+            <span class="btn-text">Send My Request</span>
+            <span class="btn-loading" style="display:none">Sending…</span>
           </button>
+          <p class="form-note">We respond within a few hours. For emergencies, call (770) 773-5059 directly.</p>
+          <div class="form-success" id="formSuccess" style="display:none">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <p><strong>Request sent!</strong> We'll be in touch within a few hours.</p>
+          </div>
         </form>
-        <div class="form-success" id="formSuccess" aria-live="polite">
-          <svg width="44" height="44" fill="none" stroke="#2563EB" stroke-width="1.5" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-          <strong>We got your request!</strong>
-          <p>Expect a call or text from us within the hour.</p>
-        </div>
       </div>
-    </div>
-  </section>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container footer-inner">
-      <div class="footer-brand">
-        <a href="#" class="nav-logo footer-logo">
-          <div class="logo-icon"><svg width="18" height="18" fill="none" viewBox="0 0 24 24"><path d="M3 10.5L12 3l9 7.5V21H15v-5h-6v5H3V10.5z" fill="#fff" fill-opacity=".8"/></svg></div>
-          <span>Kayee <em>Roofing</em> LLC</span>
-        </a>
-        <p>Gwinnett County's trusted roofing crew. Licensed, insured, and committed to quality work on every single job.</p>
-        <div class="footer-socials">
-          <a href="#" aria-label="Facebook"><svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
-          <a href="#" aria-label="Instagram"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
-          <a href="tel:7707735059" aria-label="Call us"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></a>
-        </div>
-      </div>
-      <div class="footer-col">
-        <h4>Services</h4>
-        <ul>
-          <li><a href="#services">Roof Replacement</a></li>
-          <li><a href="#services">Roof Repair</a></li>
-          <li><a href="#services">Insurance Claims</a></li>
-          <li><a href="#services">Storm Damage</a></li>
-          <li><a href="#contact">Free Inspection</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Service Areas</h4>
-        <ul>
-          <li><a href="#">Lawrenceville, GA</a></li>
-          <li><a href="#">Duluth, GA</a></li>
-          <li><a href="#">Snellville, GA</a></li>
-          <li><a href="#">Buford / Suwanee</a></li>
-          <li><a href="#">All Gwinnett County</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Contact</h4>
-        <ul>
-          <li><a href="tel:7707735059">(770) 773-5059</a></li>
-          <li><a href="#">279 W Crogan St</a></li>
-          <li><a href="#">Lawrenceville, GA 30046</a></li>
-          <li><a href="#contact">Get a Free Estimate</a></li>
-        </ul>
-      </div>
     </div>
-    <div class="footer-bottom">
-      <div class="container footer-bottom-inner">
-        <p>© 2024 Kayee Roofing LLC · All Rights Reserved · Lawrenceville, GA</p>
-        <p>Licensed &amp; Insured · Serving Gwinnett County &amp; Surrounding Areas</p>
-      </div>
-    </div>
-  </footer>
+  </div>
+</section>
 
-  <script src="script.js"></script>
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="footer-main">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="#" class="nav-logo footer-logo-link">
+            <img src="assets/logo.png" alt="Kayee Roofing LLC" class="logo-img logo-img--footer" id="footerLogoImg">
+            <span class="logo-fallback logo-fallback--footer" id="footerLogoFallback">KAYEE <em>ROOFING</em></span>
+          </a>
+          <p class="footer-tagline">Gwinnett County's trusted roofing crew. Licensed, insured, and committed to quality on every single job.</p>
+          <div class="footer-rating">
+            <span class="footer-stars">★★★★★</span>
+            <span>5.0 · 22+ Google Reviews</span>
+          </div>
+          <div class="footer-socials">
+            <a href="#" aria-label="Facebook" class="social-link">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram" class="social-link">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="#services">Roof Replacement</a></li>
+            <li><a href="#services">Roof Repair</a></li>
+            <li><a href="#services">Storm Damage</a></li>
+            <li><a href="#services">New Construction</a></li>
+            <li><a href="#services">Gutters &amp; Drainage</a></li>
+            <li><a href="#contact">Free Inspection</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Service Areas</h5>
+          <ul>
+            <li><a href="#areas">Lawrenceville, GA</a></li>
+            <li><a href="#areas">Duluth, GA</a></li>
+            <li><a href="#areas">Snellville, GA</a></li>
+            <li><a href="#areas">Buford / Suwanee</a></li>
+            <li><a href="#areas">Norcross, GA</a></li>
+            <li><a href="#areas">All Gwinnett County</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <ul>
+            <li><a href="tel:7707735059">(770) 773-5059</a></li>
+            <li><a href="#contact">279 W Crogan St, Lawrenceville</a></li>
+            <li>Mon–Sat 7am–7pm</li>
+          </ul>
+          <a href="#contact" class="btn btn-gold footer-cta-btn">Get Free Estimate</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>© 2024 Kayee Roofing LLC · All Rights Reserved · Lawrenceville, GA</p>
+      <p>Licensed &amp; Insured · Serving Gwinnett County &amp; Surrounding Areas</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
